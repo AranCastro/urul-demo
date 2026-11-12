@@ -1,0 +1,13 @@
+{
+ "crs_image": "EPSG:3857",
+ "crs_bounds": "EPSG:4326",
+ "west": 75.76724,
+ "south": 11.4392,
+ "east": 76.4526,
+ "north": 11.98694,
+ "source": "Copernicus DEM GLO-30 (ESA, Copernicus programme)",
+ "elevation_range_m": [
+  567,
+  1691
+ ]
+}
