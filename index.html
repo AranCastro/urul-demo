@@ -1,0 +1,136 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="URUL: landslide early warning demo app for Wayanad, Kerala. Demo data only.">
+<link rel="icon" type="image/png" href="favicon.png"><link rel="manifest" href="manifest.json">
+<title>URUL Live Demo</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap">
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+  /* Layout: phone frame centred on a deep-blue stage, presenter notes to its right on wide screens. */
+  :root {
+    --stage: #0b2552;
+    --stage-2: #133c7c;
+    --ink: #ffffff;
+    --ink-soft: #c3d4ef;
+    --bezel: #16181c;
+    --demo-bg: #fff3e0;
+    --demo-ink: #bf360c;
+    --font-display: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    --font-body: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    color-scheme: dark;
+  }
+  html, body { height: 100%; }
+  body {
+    margin: 0;
+    background: radial-gradient(ellipse at 30% 40%, var(--stage-2), var(--stage) 70%);
+    color: var(--ink);
+    font-family: var(--font-body);
+    overflow: hidden;
+  }
+  .stage {
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 56px;
+    padding-block: 20px;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+  }
+  .phone {
+    position: relative;
+    flex: none;
+    height: min(892px, calc(100% - 8px));
+    aspect-ratio: 412 / 892;
+    max-width: 100%;
+    border-radius: 44px;
+    background: var(--bezel);
+    padding: 12px;
+    box-sizing: border-box;
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.45);
+  }
+  #app {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 32px;
+    overflow: hidden;
+    background: #f4f6f9;
+  }
+  .loading {
+    position: absolute;
+    inset: 12px;
+    border-radius: 32px;
+    display: grid;
+    place-items: center;
+    align-content: center;
+    gap: 14px;
+    color: #5f6b7a;
+    font-size: 15px;
+    background: #f4f6f9;
+    pointer-events: none;
+    transition: opacity 0.4s ease;
+  }
+  .loading .dot {
+    width: 34px; height: 34px; border-radius: 50%;
+    border: 3px solid #c9d6ea; border-top-color: #1565c0;
+    animation: spin 0.9s linear infinite;
+  }
+  body.ready .loading { opacity: 0; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  @media (prefers-reduced-motion: reduce) { .loading .dot { animation: none; } }
+  .notes { max-width: 360px; display: grid; gap: 18px; min-width: 0; }
+  .notes h1 {
+    margin: 0;
+    font-family: var(--font-display);
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    text-wrap: balance;
+  }
+  .notes .sub { margin: 0; color: var(--ink-soft); font-size: 17px; line-height: 1.45; }
+  .notes ul { margin: 0; padding-left: 20px; display: grid; gap: 10px; color: var(--ink-soft); font-size: 15px; line-height: 1.45; }
+  .notes b { color: var(--ink); font-weight: 600; }
+  .demo {
+    justify-self: start;
+    background: var(--demo-bg);
+    color: var(--demo-ink);
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.4px;
+    padding: 8px 14px;
+    border-radius: 999px;
+  }
+  /* Phone-sized screens: the app fills the screen, no frame or notes. */
+  @media (max-width: 700px) {
+    .notes { display: none; }
+    .stage { padding: 0; }
+    .phone { height: 100%; width: 100%; aspect-ratio: auto; border-radius: 0; padding: 0; box-shadow: none; }
+    #app, .loading { border-radius: 0; inset: 0; }
+  }
+  /* Short laptop screens: hide notes before the phone gets too small. */
+  @media (min-width: 701px) and (max-width: 980px) { .notes { display: none; } }
+</style>
+
+<div class="stage">
+  <div class="phone">
+    <div id="app"></div>
+    <div class="loading" aria-hidden="true"><div class="dot"></div>Starting URUL…</div>
+  </div>
+  <section class="notes">
+    <h1>URUL</h1>
+    <p class="sub">Landslide early warning demo for Wayanad district, Kerala. The same app as the Android APK, running in the browser.</p>
+    <ul>
+      <li><b>Map:</b> switch 24, 48 and 72 h; tap a coloured zone.</li>
+      <li><b>Alerts:</b> open an alert, then <b>Show on hazard map</b>.</li>
+      <li><b>Roads:</b> tap a road on the map or in the list.</li>
+      <li><b>Report:</b> allow location when asked, or tap <b>Type position</b> (e.g. 11.5553, 76.1345). <b>Take photo</b> opens the camera on a phone, or a file picker on a laptop.</li>
+      <li>Without internet the street map is hidden and the map uses its offline view, as on a phone in flight mode.</li>
+    </ul>
+    <span class="demo">DEMO DATA. NOT A REAL LANDSLIDE WARNING.</span>
+  </section>
+</div>
+
+<script src="urul_boot.js" async></script>
+</html>

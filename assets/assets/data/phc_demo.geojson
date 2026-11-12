@@ -1,0 +1,68 @@
+{
+ "type": "FeatureCollection",
+ "name": "phc_demo",
+ "crs": {
+  "type": "name",
+  "properties": {
+   "name": "urn:ogc:def:crs:EPSG::4326"
+  }
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "phc_id": "P01",
+    "name": "Meppadi PHC (demo)"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     76.128,
+     11.5615
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "phc_id": "P02",
+    "name": "Kalpetta PHC (demo)"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     76.078,
+     11.612
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "phc_id": "P03",
+    "name": "Mananthavady PHC (demo)"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     76.008,
+     11.798
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "phc_id": "P04",
+    "name": "Sulthan Bathery PHC (demo)"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     76.255,
+     11.66
+    ]
+   }
+  }
+ ]
+}

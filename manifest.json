@@ -1,0 +1,35 @@
+{
+  "name": "URUL",
+  "short_name": "URUL",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#F4F6F9",
+  "theme_color": "#1565C0",
+  "description": "Landslide early warning demo for Wayanad, Kerala. Demo data only.",
+  "orientation": "portrait-primary",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "icons/Icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/Icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/Icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/Icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

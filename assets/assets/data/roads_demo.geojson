@@ -1,0 +1,438 @@
+{
+ "type": "FeatureCollection",
+ "name": "roads_demo",
+ "crs": {
+  "type": "name",
+  "properties": {
+   "name": "urn:ogc:def:crs:EPSG::4326"
+  }
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "road_id": "R01",
+    "name": "Meppadi to Chooralmala road",
+    "status": "BLOCKED",
+    "length_km": 7.4,
+    "villages_cut_off": [
+     "V03",
+     "V04",
+     "V05",
+     "V06"
+    ],
+    "phc_lost": "P01"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      76.1345,
+      11.5553
+     ],
+     [
+      76.139,
+      11.546
+     ],
+     [
+      76.145,
+      11.535
+     ],
+     [
+      76.1475,
+      11.523
+     ],
+     [
+      76.144,
+      11.512
+     ],
+     [
+      76.1425,
+      11.501
+     ],
+     [
+      76.141,
+      11.492
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "road_id": "R02",
+    "name": "Chooralmala to Mundakkai road",
+    "status": "BLOCKED",
+    "length_km": 2.4,
+    "villages_cut_off": [
+     "V04"
+    ],
+    "phc_lost": "P01"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      76.141,
+      11.492
+     ],
+     [
+      76.145,
+      11.4865
+     ],
+     [
+      76.147,
+      11.481
+     ],
+     [
+      76.15,
+      11.477
+     ],
+     [
+      76.152,
+      11.473
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "road_id": "R03",
+    "name": "Meppadi to Rippon and Vaduvanchal road",
+    "status": "AT_RISK",
+    "length_km": 9.2,
+    "villages_cut_off": [
+     "V20",
+     "V19"
+    ],
+    "phc_lost": "P01"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      76.1345,
+      11.5553
+     ],
+     [
+      76.146,
+      11.549
+     ],
+     [
+      76.158,
+      11.539
+     ],
+     [
+      76.171,
+      11.528
+     ],
+     [
+      76.183,
+      11.538
+     ],
+     [
+      76.19,
+      11.547
+     ],
+     [
+      76.197,
+      11.555
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "road_id": "R04",
+    "name": "Vythiri to Lakkidi ghat road (NH 766)",
+    "status": "AT_RISK",
+    "length_km": 4.4,
+    "villages_cut_off": [
+     "V08"
+    ],
+    "phc_lost": "P02"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      76.037,
+      11.553
+     ],
+     [
+      76.033,
+      11.543
+     ],
+     [
+      76.029,
+      11.533
+     ],
+     [
+      76.025,
+      11.524
+     ],
+     [
+      76.021,
+      11.517
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "road_id": "R05",
+    "name": "Pozhuthana to Vythiri road",
+    "status": "AT_RISK",
+    "length_km": 6.8,
+    "villages_cut_off": [
+     "V10"
+    ],
+    "phc_lost": "P02"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      75.993,
+      11.596
+     ],
+     [
+      76.003,
+      11.587
+     ],
+     [
+      76.011,
+      11.577
+     ],
+     [
+      76.022,
+      11.566
+     ],
+     [
+      76.037,
+      11.553
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "road_id": "R06",
+    "name": "Kalpetta to Vythiri road (NH 766)",
+    "status": "OPEN",
+    "length_km": 8.0,
+    "villages_cut_off": [
+     "V07",
+     "V08",
+     "V09",
+     "V10"
+    ],
+    "phc_lost": "P02"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      76.083,
+      11.6085
+     ],
+     [
+      76.076,
+      11.599
+     ],
+     [
+      76.067,
+      11.588
+     ],
+     [
+      76.059,
+      11.576
+     ],
+     [
+      76.048,
+      11.565
+     ],
+     [
+      76.037,
+      11.553
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "road_id": "R07",
+    "name": "Kalpetta to Meppadi road",
+    "status": "OPEN",
+    "length_km": 8.2,
+    "villages_cut_off": [],
+    "phc_lost": null
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      76.083,
+      11.6085
+     ],
+     [
+      76.094,
+      11.597
+     ],
+     [
+      76.105,
+      11.585
+     ],
+     [
+      76.118,
+      11.573
+     ],
+     [
+      76.127,
+      11.563
+     ],
+     [
+      76.1345,
+      11.5553
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "road_id": "R08",
+    "name": "Mananthavady to Thirunelli road",
+    "status": "OPEN",
+    "length_km": 12.6,
+    "villages_cut_off": [
+     "V14"
+    ],
+    "phc_lost": "P03"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      76.004,
+      11.801
+     ],
+     [
+      75.996,
+      11.822
+     ],
+     [
+      75.989,
+      11.843
+     ],
+     [
+      75.99,
+      11.865
+     ],
+     [
+      75.994,
+      11.888
+     ],
+     [
+      75.997,
+      11.911
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "road_id": "R09",
+    "name": "Thariode to Mananthavady road",
+    "status": "OPEN",
+    "length_km": 17.3,
+    "villages_cut_off": [
+     "V11",
+     "V12"
+    ],
+    "phc_lost": "P03"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      75.967,
+      11.651
+     ],
+     [
+      75.977,
+      11.668
+     ],
+     [
+      75.985,
+      11.685
+     ],
+     [
+      75.989,
+      11.715
+     ],
+     [
+      75.992,
+      11.745
+     ],
+     [
+      75.998,
+      11.773
+     ],
+     [
+      76.004,
+      11.801
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "road_id": "R10",
+    "name": "Sulthan Bathery to Pulpally road",
+    "status": "OPEN",
+    "length_km": 17.8,
+    "villages_cut_off": [
+     "V18"
+    ],
+    "phc_lost": "P04"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      76.26,
+      11.663
+     ],
+     [
+      76.246,
+      11.688
+     ],
+     [
+      76.229,
+      11.715
+     ],
+     [
+      76.209,
+      11.742
+     ],
+     [
+      76.187,
+      11.768
+     ],
+     [
+      76.165,
+      11.793
+     ]
+    ]
+   }
+  }
+ ]
+}

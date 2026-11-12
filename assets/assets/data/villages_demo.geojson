@@ -1,0 +1,312 @@
+{
+ "type": "FeatureCollection",
+ "name": "villages_demo",
+ "crs": {
+  "type": "name",
+  "properties": {
+   "name": "urn:ogc:def:crs:EPSG::4326"
+  }
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "village_id": "V01",
+    "name": "Kalpetta",
+    "population_demo": 31000
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     76.083,
+     11.6085
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "village_id": "V02",
+    "name": "Meppadi",
+    "population_demo": 18500
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     76.1345,
+     11.5553
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "village_id": "V03",
+    "name": "Chooralmala",
+    "population_demo": 2600
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     76.141,
+     11.492
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "village_id": "V04",
+    "name": "Mundakkai",
+    "population_demo": 1900
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     76.152,
+     11.473
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "village_id": "V05",
+    "name": "Attamala",
+    "population_demo": 900
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     76.122,
+     11.487
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "village_id": "V06",
+    "name": "Puthumala",
+    "population_demo": 1100
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     76.149,
+     11.523
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "village_id": "V07",
+    "name": "Vythiri",
+    "population_demo": 9800
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     76.037,
+     11.553
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "village_id": "V08",
+    "name": "Lakkidi",
+    "population_demo": 2100
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     76.021,
+     11.517
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "village_id": "V09",
+    "name": "Chundale",
+    "population_demo": 7400
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     76.059,
+     11.576
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "village_id": "V10",
+    "name": "Pozhuthana",
+    "population_demo": 5200
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     75.993,
+     11.596
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "village_id": "V11",
+    "name": "Thariode",
+    "population_demo": 3800
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     75.967,
+     11.651
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "village_id": "V12",
+    "name": "Padinjarathara",
+    "population_demo": 6400
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     75.985,
+     11.685
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "village_id": "V13",
+    "name": "Mananthavady",
+    "population_demo": 27000
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     76.004,
+     11.801
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "village_id": "V14",
+    "name": "Thirunelli",
+    "population_demo": 2700
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     75.997,
+     11.911
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "village_id": "V15",
+    "name": "Sulthan Bathery",
+    "population_demo": 30000
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     76.26,
+     11.663
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "village_id": "V16",
+    "name": "Ambalavayal",
+    "population_demo": 8900
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     76.21,
+     11.617
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "village_id": "V17",
+    "name": "Meenangadi",
+    "population_demo": 9100
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     76.17,
+     11.66
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "village_id": "V18",
+    "name": "Pulpally",
+    "population_demo": 12000
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     76.165,
+     11.793
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "village_id": "V19",
+    "name": "Vaduvanchal",
+    "population_demo": 6100
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     76.197,
+     11.555
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "village_id": "V20",
+    "name": "Rippon",
+    "population_demo": 2400
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     76.171,
+     11.528
+    ]
+   }
+  }
+ ]
+}

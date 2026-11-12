@@ -1,0 +1,117 @@
+{
+ "note": "DEMO DATA. NOT A REAL LANDSLIDE WARNING.",
+ "alerts": [
+  {
+   "alert_id": "A01",
+   "level": "HIGH",
+   "window": "24h",
+   "title": "HIGH landslide hazard, next 24 h",
+   "place": "Chooralmala, Meppadi area",
+   "issued": "2026-11-12T06:00:00+05:30",
+   "road_id": "R01",
+   "zone_id": "HZ01",
+   "villages": [
+    "V03",
+    "V04",
+    "V05",
+    "V06"
+   ],
+   "phc": "P01",
+   "lat": 11.5065,
+   "lon": 76.1433,
+   "message": "HIGH landslide hazard, next 24 h. The road near Chooralmala, Meppadi area is blocked. 4 villages have lost road access to the PHC. Avoid travel on this stretch. Stay away from cut slopes.",
+   "advice": "Avoid travel on this stretch. Stay away from cut slopes. Keep an emergency bag ready. Follow instructions from local officials."
+  },
+  {
+   "alert_id": "A02",
+   "level": "HIGH",
+   "window": "24h",
+   "title": "HIGH landslide hazard, next 24 h",
+   "place": "Mundakkai, upper catchment",
+   "issued": "2026-11-12T05:45:00+05:30",
+   "road_id": "R02",
+   "zone_id": "HZ02",
+   "villages": [
+    "V04"
+   ],
+   "phc": "P01",
+   "lat": 11.4838,
+   "lon": 76.146,
+   "message": "HIGH landslide hazard, next 24 h. Very heavy rain is forecast over the Mundakkai upper catchment. The Chooralmala to Mundakkai road is blocked, so Mundakkai has lost road access to the PHC. Move to a relief camp if asked.",
+   "advice": "Move to a safe place if officials ask you to. Do not cross streams. Listen for unusual sounds such as cracking trees or rolling rocks."
+  },
+  {
+   "alert_id": "A03",
+   "level": "HIGH",
+   "window": "48h",
+   "title": "HIGH landslide hazard, next 48 h",
+   "place": "Puthumala hillside",
+   "issued": "2026-11-12T09:00:00+05:30",
+   "road_id": "R01",
+   "zone_id": "HZ03",
+   "villages": [
+    "V06"
+   ],
+   "phc": "P01",
+   "lat": 11.531,
+   "lon": 76.1462,
+   "message": "HIGH landslide hazard, next 48 h. Rain is increasing on the Puthumala hillside, where soil on cut slopes is loose. The Meppadi to Chooralmala road is already blocked, so Puthumala has lost road access to the PHC.",
+   "advice": "Stay away from cut slopes and loose soil. Report new cracks in the ground or in walls. Keep phones charged."
+  },
+  {
+   "alert_id": "A04",
+   "level": "MEDIUM",
+   "window": "24h",
+   "title": "MEDIUM landslide hazard, next 24 h",
+   "place": "Lakkidi ghat, NH 766",
+   "issued": "2026-11-12T07:30:00+05:30",
+   "road_id": "R04",
+   "zone_id": "HZ04",
+   "villages": [
+    "V08"
+   ],
+   "phc": "P02",
+   "lat": 11.533,
+   "lon": 76.029,
+   "message": "MEDIUM landslide hazard, next 24 h. Rocks may fall on the ghat road near Lakkidi. If the road is blocked, Lakkidi would lose road access to the PHC.",
+   "advice": "Drive slowly on the ghat road. Do not stop below steep cuttings. Avoid travel at night if possible."
+  },
+  {
+   "alert_id": "A05",
+   "level": "MEDIUM",
+   "window": "24h",
+   "title": "MEDIUM landslide hazard, next 24 h",
+   "place": "Rippon, Meppadi area",
+   "issued": "2026-11-12T08:00:00+05:30",
+   "road_id": "R03",
+   "zone_id": "HZ06",
+   "villages": [
+    "V20",
+    "V19"
+   ],
+   "phc": "P01",
+   "lat": 11.544,
+   "lon": 76.152,
+   "message": "MEDIUM landslide hazard, next 24 h. Drainage is blocked on the tea estate slopes near Rippon. If the road is blocked, 2 villages would lose road access to the PHC.",
+   "advice": "Clear blocked drains only if it is safe. Keep away from water flowing over slopes. Watch for new cracks."
+  },
+  {
+   "alert_id": "A06",
+   "level": "LOW",
+   "window": "24h",
+   "title": "LOW landslide hazard, next 24 h",
+   "place": "Pozhuthana hills",
+   "issued": "2026-11-12T05:30:00+05:30",
+   "road_id": "R05",
+   "zone_id": "HZ07",
+   "villages": [
+    "V10"
+   ],
+   "phc": "P02",
+   "lat": 11.582,
+   "lon": 76.007,
+   "message": "LOW landslide hazard, next 24 h. Rain is building up over the Pozhuthana hills and the hazard may rise to HIGH within 72 h. Keep watching for updates.",
+   "advice": "No immediate danger. Check for updates. Report any new cracks in the ground using this app."
+  }
+ ]
+}
