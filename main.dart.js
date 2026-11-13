@@ -100348,7 +100348,7 @@ A.a0R.prototype={
 F(a){var s=null,r=A.aSI()
 return A.aOu(!1,A.aJq(s,A.kb(new A.bt(B.J3,A.bK(A.b([B.Kz,B.a5,B.a0T,B.cq,A.au(A.k(this.c),s,s,s,s,B.M,B.bI,s)],t.p),B.v,B.ac),s),s,s),s),r,B.CP,"")}}
 A.aHb.prototype={
-$1(a){var s,r,q,p,o,n,m=null,l=t.p,k=A.b([A.aKG(B.m7,"URUL shows how a landslide early warning system could work in Wayanad district, Kerala.",!1),A.aKG(B.eC,"The map, alerts and road status show which villages could lose road access to a health centre (PHC).",!1),A.aKG(B.iN,"All hazard zones, alerts and road conditions are made up for a school demonstration.",!0),B.cq,B.pG,B.a5,A.au("Data sources".toUpperCase(),m,m,m,m,B.cP,m,m),B.c8],l)
+$1(a){var s,r,q,p,o,n,m=null,l=t.p,k=A.b([A.aKG(B.m7,"URUL shows how a landslide early warning system could work in Wayanad district, Kerala.",!1),A.aKG(B.eC,"The map, alerts and road status show which villages could lose road access to a health centre (PHC).",!1),A.aKG(B.iN,"All hazard zones, alerts and road conditions are made up for demonstration.",!0),B.cq,B.pG,B.a5,A.au("Data sources".toUpperCase(),m,m,m,m,B.cP,m,m),B.c8],l)
 for(s=0;s<8;++s){r=B.N8[s].a
 q=r[0]
 p=r[1]
